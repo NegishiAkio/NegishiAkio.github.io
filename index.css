@@ -1,0 +1,230 @@
+@media only screen and (min-width: 768px) {
+#humberger{
+display: none;
+}
+
+}
+@media only screen and (max-width: 768px) {
+body{
+  max-width: 100%;
+
+}
+header{
+max-width: 100%;
+}
+#menu{
+  display: none;
+}
+
+#menu ul{
+  max-width: 100%;
+}
+#menu ul li{
+  max-width: 100%;
+
+}
+#menu ul li a{
+  max-width: 100%;
+}
+#menu ul li a:hover{
+  max-width: 100%;
+}
+
+#humberger{
+
+}
+img{
+max-width: 100%;
+}
+.main{
+  max-width: 90%;
+}
+.img{
+  max-width: 100%;
+
+}
+#content{
+
+  max-width: 100%;
+}
+#twitter{
+  max-width: 45%;
+}
+.p1{
+  max-width: 100%;
+}
+#update{
+  max-width: 45%;
+
+}
+#update_content{
+  max-width: 100%;
+
+}
+}
+@media screen and (max-width: 480px) {
+  img{
+  max-width: 100%;
+  }
+  #humberger{
+
+  }
+  .main{
+    max-width: 90%;
+  }
+  .img{
+    max-width: 100%;
+
+  }
+  #content{
+
+    max-width: 100%;
+  }
+  #twitter{
+
+    max-width: 100%;
+  }
+  .p1{
+    max-width: 100%;
+  }
+  #update{
+max-width: 100%;
+  }
+  #update_content{
+    max-width: 100%;
+
+  }
+}
+@media screen and (max-width: 320px) {
+  img{
+  max-width: 100%;
+  }
+  .main{
+    max-width: 90%;
+  }
+  .img{
+    max-width: 100%;
+
+  }
+  #content{
+
+    max-width: 100%;
+  }
+  #twitter{
+    max-width: 100%;
+  }
+  .p1{
+    max-width: 100%;
+  }
+  #update{
+    max-width: 100%;
+
+  }
+  #update_content{
+    max-width: 100%;
+
+  }
+  strong{
+    font-size: 13px;
+  }
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(img/b003.gif);
+}
+header{
+  width: 1200px;
+  margin: auto;
+  height: 60px;
+}
+#menu{
+
+  margin: 0;
+  padding: 0;
+text-align: center;
+margin: auto;
+}
+#menu ul{
+  margin: 0;
+padding: 0;
+list-style: none;
+
+}
+#menu ul li{
+  border-left: 1px solid white;
+margin: auto;
+  line-height:60px;
+  float: left;
+background-image: url(img/btn050_06.png);
+  width: 400px;
+  height: 60px;
+}
+#menu ul li a{
+  text-decoration:none;
+    color:white;
+display: block;
+font-size: 14px;
+}
+#menu ul li a:hover{
+  color: SkyBlue;
+  background-color: white;
+
+}
+.img{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.main{
+  margin: auto;
+margin-top: 50px;
+width: 1200px;
+
+}
+#content{
+  margin: auto;
+  width: 1050px;
+  height: 1000px;
+}
+#twitter{
+  width: 500px;
+float: left;
+}
+.twitter-timeline{
+
+border-radius:20px;
+}
+.p1{
+  width: 500px;
+  border-radius:60px;
+  background-image: url(img/btn057_06.png);
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  color:white;
+}
+#update{
+  width: 500px;
+  float: right;
+}
+#update_content{
+  background-color: white;
+  overflow:scroll;
+  width: 500px;
+  border-radius:20px;
+  border: 1px solid gray;
+  height: 600px;
+
+}
+p.data{
+  color: SkyBlue;
+font-size: 20px;
+display: inline;
+}
+p.naiyou{
+font-weight:600;
+}
+footer{
+  text-align: center;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+   <title>浜っ娘</title>
+   <link rel="stylesheet" type="text/css" href="bubble/css/common.css" media="all">
+    <link rel="stylesheet" type="text/css" href="bubble/css/bubble.css" media="all">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/drawer.min.css">
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="bubble/js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="bubble/js/bubble.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/iscroll.js"></script>
+    <script src="js/drawer.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".drawer").drawer();
+    });
+
+    </script>
+
+</head>
+<body class="drawer drawer--right">
+<header>
+  <div id="humberger">
+
+  <button type="button" class="drawer-toggle drawer-hamburger">
+  <span class="sr-only" style="background-color:red;">toggle navigation</span>
+  <span class="drawer-hamburger-icon" ></span>
+</button>
+
+<nav class="drawer-nav" style="background-image:url(img/ja06.gif)" >
+  <ul class="drawer-menu" style="background-color:SkyBlue; font-size:30px; text-align:center; border-bottom:2px solid white;">
+    <!-- ドロワーメニューの中身 -->
+    <li style="border-bottom:2px solid white;"><a href="index.html"  style="text-decoration:none; color:white; display: block;">HOME</a></li>
+    <li style="border-bottom:2px solid white;"><a href="download.html"  style="text-decoration:none; color:white; display: block;">ダウンロード</a></li>
+    <li style="border-bottom:2px solid white;"><a href="faq.html"   style="text-decoration:none; color:white; display: block;">お問い合わせ</a></li>
+  </ul>
+</nav>
+
+</div>
+
+
+
+
+  <div id="menu">
+      <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="download.html">ダウンロード</a></li>
+          <li><a href="faq.html" >お問い合わせ</a></li>
+      </ul>
+  </div>
+</header>
+<div class="main">
+    <div class="img">
+      <a href="https://twitter.com/dango_SR"><img src="img/hamako.png" width=700px;  alt="浜ッ娘"/></a>
+    </div>
+<div id="content">
+    <div id="twitter">
+      <p class="p1">Twitter</p>
+      <a class="twitter-timeline" href="https://twitter.com/search?q=%40moeaward" data-widget-id="985102770360401920">@moeawardに関するツイート</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+
+    <div id="update">
+      <p class="p1">UPDATE</p>
+      <div id="update_content">
+        <p class="data"><u>2018/02/01</u></p>
+        <p class="naiyou">浜っ娘<a href="http://www.dlsite.com/">DLsite</a>にて無料ダウンロード中！！横浜好きの人や、横浜をもっと知りたい方必見のゲームとなっております！（随時アップロード予定）</p>
+        <p class="data"><u>2018/01/04</u></p>
+        <p class="naiyou"><img src="img/hamako.png" style="width:200px;" /><br />浜っ娘制作中・・・</p>
+        <p class="data"><u>2018/01/01</u></p>
+        <p class="naiyou">Webサイト公開！！＆レスポンシブ対応しました！！</p>
+
+      </div>
+    </div>
+</div>
+</div>
+<footer>
+<strong></strong>
+</footer>
+</body>
+</html>
